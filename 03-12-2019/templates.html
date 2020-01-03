@@ -1,0 +1,321 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>VBM</title>
+
+    <style>
+        .header-content {
+            height: 50px;
+            color: white;
+            font-weight: 800;
+            position: fixed;
+            display: block;
+            z-index: 1;
+            width: 100%;
+        }
+
+        .left-container {
+            width: 20%;
+            border-bottom: 1px solid darkgray;
+        }
+
+        #left-a>a {
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        #left-a>a:hover {
+            background-color: darkgray;
+        }
+
+        .lis>li {
+            border: none;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .lis>li>a {
+            color: black;
+        }
+
+        .lis>li:hover {
+            background-color: darkgrey;
+        }
+
+        .recent>ol>li:hover {
+            background-color: rgb(95, 86, 95);
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header-content bg-dark text-right p-2 ">
+            <span class="">Logo</span>
+        </div>
+        <div class="d-flex" style="width: 100%;">
+            <div class="left-container">
+                <div class="left-1 d-flex justify-content-around" style="margin-top: 80px;">
+                    <div>
+                        <img class="rounded-circle" src="venky.jpeg" alt="logo" width="50px" height="50px">
+                    </div>
+                    <div>
+                        <span>Welcome <Strong>VENKY</Strong></span>
+                        <div id="left-a">
+                            <a class="ml-3 text-dark" href="#"><i class='fa fa-envelope'></i></a>
+                            <a class="ml-4 text-dark" href="#"><i class="fas fa-user"></i></a>
+                            <a class="ml-4 text-dark" href="#"><i class="fa fa-cog"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h5 style="padding: 10px; margin: 5px;" >Dashboard</h5>
+                <div class="p- m-2">
+                    <ol class="list-group lis ">
+                        <li class="list-group-item bg-info "> <a class="text-dark" href="#"><i
+                                    style="margin-right: 10px;" class="fa fa-users fa-fw"></i> Overview</a> </li>
+                        <li class="list-group-item"> <a href="#"><i style="margin-right: 10px;" class="fa fa-eye fa-fw"></i>
+                                View</a> </li>
+                        <li class="list-group-item"> <a href="#"><i style="margin-right: 10px;" class="fa fa-users fa-fw"></i>
+                                Trafic</a> </li>
+                        <li class="list-group-item"> <a href="#"><i style="margin-right: 10px;" class="fa fa-bullseye fa-fw"></i>
+                                Geo</a> </li>
+                        <li class="list-group-item"> <a href="#"><i style="margin-right: 10px;" class="fa fa-diamond fa-fw"></i>
+                                Orders</a> </li>
+                        <li class="list-group-item"> <a href="#"><i style="margin-right: 10px;" class="fa fa-bell fa-fw"></i>
+                                News</a> </li>
+                        <li class="list-group-item"> <a href="#"><i style="margin-right: 10px;" class="fa fa-bank fa-fw"></i>
+                                General</a> </li>
+                        <li class="list-group-item"> <a href="#"><i style="margin-right: 10px;" class="fa fa-history fa-fw"></i>
+                                History</a> </li>
+                        <li class="list-group-item"> <a href="#"><i style="margin-right: 10px;" class="fa fa-cog fa-fw"></i>
+                                Settings</a> </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="rigth-container " style=" background-color: rgb(201, 195, 195);max-width: 80%;;  margin-top: 50px;padding: 50px;">
+                <h4>My Dashboard</h4>
+                <div class="d-flex justify-content-around">
+                    <div style="background-color: red; height: 100px;padding: 20px; color: white;">
+                        <i class="fa fa-comment" style="font-size: xx-large;"></i>
+                        <span style="margin-left: 100px;"><Strong>52</Strong></span>
+                        <h3>Messages</h3>
+                    </div>
+                    <div style="background-color:darkblue; height: 100px;  padding: 20px; color: white;">
+                        <i class="fa fa-eye" style="font-size: xx-large;"></i>
+                        <span style="margin-left: 100px;"><Strong>99</Strong></span>
+                        <h3>Views</h3>
+                    </div>
+                    <div
+                        style="background-color: darkolivegreen; height: 100px;  padding: 20px; color: white;">
+                        <i class="fa fa-share-alt" style="font-size: xx-large;"></i>
+                        <span style="margin-left: 100px;"><Strong>23</Strong></span>
+                        <h3>Shares</h3>
+                    </div>
+                    <div
+                        style="background-color: yellowgreen; height: 100px; padding: 20px; color: white;">
+                        <i class="fa fa-user" style="font-size: xx-large;"></i>
+                        <span style="margin-left: 100px;"><Strong>52</Strong></span>
+                        <h3>users</h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex mt-4" >
+                        <h5 style="margin-right: 310px">Regions</h5>
+                        <h5>Feeds</h5>
+                    </div>
+                    <div class="d-flex ">
+                        <div>
+                            <img src="https://www.w3schools.com/w3images/region.jpg" alt="map" width="300px"
+                                height="250px">
+                        </div>
+                        <div>
+                            <table class="table table-striped " style=" margin-left: 80px;">
+                                <tbody>
+                                    <tr>
+                                        <td><i class="fas fa-user"></i></td>
+                                        <td>New record over 90 views</td>
+                                        <td>10 mins</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fas fa-bell"></i></td>
+                                        <td>Database Error</td>
+                                        <td>10 mins</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fas fa-users"></i></td>
+                                        <td>New record over 40 users</td>
+                                        <td>10 mins</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fas fa-comment"></i></td>
+                                        <td>New comments</td>
+                                        <td>10 mins</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fas fa-bookmark"></i></td>
+                                        <td>check-transaction</td>
+                                        <td>10 mins</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fas fa-laptop"></i></td>
+                                        <td>Cpu overload</td>
+                                        <td>10 mins</td>
+                                    </tr>
+                                    <tr>
+                                            <td><i class="fas fa-share"></i></td>
+                                            <td>New shares</td>
+                                            <td>20 mins</td>
+                                        </tr>
+                                    
+                                    
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <h5>General states</h5>
+                <h6>New visitors</h6>
+                <div style="background-color: darkgray; height: 30px;">
+                    <div style="background-color: green; width: 25%;  height: 30px; color: white; text-align: center;">
+                        25%</div>
+                </div>
+                <h6>New user</h6>
+                <div style="background-color: darkgray; height: 30px;">
+                    <div
+                        style="background-color: rgb(187, 50, 26); width: 40%;  height: 30px; color: white; text-align: center;">
+                        50%</div>
+                </div>
+                <h6>Bounce rate</h6>
+                <div style="background-color: darkgray; height: 30px;">
+                    <div
+                        style="background-color: rgb(19, 16, 192); width: 60%;  height: 30px; color: white; text-align: center;">
+                        75%</div>
+                </div>
+                <div class="mt-4">
+                    <h5>Countres</h5>
+                    <table class="table table-striped table-hover bordred bg-light">
+                        <tbody>
+                            <tr>
+                                <td>United States</td>
+                                <td>65%</td>
+                            </tr>
+                            <tr>
+                                <td>UK</td>
+                                <td>35%</td>
+                            </tr>
+                            <tr>
+                                <td>Spain</td>
+                                <td>6.5%</td>
+                            </tr>
+                            <tr>
+                                <td>France</td>
+                                <td>1.5%</td>
+                            </tr>
+                            <tr>
+                                <td>India</td>
+                                <td>1.25%</td>
+                            </tr>
+                            <tr>
+                                <td>Russia</td>
+                                <td>0.25%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div>
+                    <button class="btn btn-dark">More Countries <i class="fa fa-hand-o-right"></i></button>
+                </div>
+                <h6 class="mt-5">Recent-users</h6>
+                <div class="recent shadow">
+                    <ol class="list-group ">
+                        <li class="list-group-item "><img class="rounded-circle" width="40px" height="40px"
+                                src="https://www.w3schools.com/w3images/avatar2.png" alt="pro"><strong
+                                class="ml-5">Venky</strong></li>
+                        <li class="list-group-item "><img class="rounded-circle" width="40px" height="40px"
+                                src="https://www.w3schools.com/w3images/avatar2.png" alt="pro"><strong
+                                class="ml-5">Dora</strong></li>
+                        <li class="list-group-item "><img class="rounded-circle" width="40px" height="40px"
+                                src="https://www.w3schools.com/w3images/avatar2.png" alt="pro"><strong
+                                class="ml-5">Jai</strong></li>
+                    </ol>
+
+                </div>
+                <h5 class="mt-5 mb-4">Recent-comments</h5>
+                <div>
+                    <div>
+                        <img src="https://www.w3schools.com/w3images/avatar2.png" alt="profile" width="40px"
+                            height="40px" class="rounded-circle">
+                        <span class="ml-5"><strong> Jhon </strong><span>sep 29, 2014 9:12pm </span>
+                            <div style="margin-left: 90px;">
+                                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua.</p>
+                            </div>
+
+                        </span>
+                    </div>
+                    <div>
+                        <img src="https://www.w3schools.com/w3images/avatar2.png" alt="profile" width="40px"
+                            height="40px" class="rounded-circle">
+                        <span class="ml-5"><strong> Jhon </strong><span>sep 29, 2014 9:12pm </span>
+                            <div style="margin-left: 90px;">
+                                <p >Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua.</p>
+                            </div>
+
+                        </span>
+                    </div>
+
+                </div>
+                <div class="row bg-dark text-light p-5 mt-5">
+                    <div class="col-md-4">
+                        <h5>Demographics</h5>
+                        <hr style="height: 5px; background-color: yellow;">
+                        <div>Language</div>
+                        <div>Country</div>
+                        <div>City</div>
+                    
+                    </div>
+                    <div class="col-md-4">
+                            <h5>System</h5>
+                            <hr style="height: 5px; background-color: rgb(22, 167, 41);">
+                            <div>Broweser</div>
+                            <div>Os</div>
+                            <div>more</div>
+    
+                        </div>
+                        <div class="col-md-4">
+                                <h5>Target</h5>
+                                <hr style="height: 5px;background-color: rgb(49, 8, 161);">
+                                <div>User</div>
+                                <div>Active</div>
+                                <div>Geo</div>
+                                <div>Interests</div>
+        
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

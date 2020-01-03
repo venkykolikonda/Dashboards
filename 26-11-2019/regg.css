@@ -1,0 +1,7 @@
+.form.container{
+    max-width: 50% !important;
+    text-align: center;
+    margin-left: 22%;
+    background-color: blueviolet;
+    border-radius: 9%;
+}

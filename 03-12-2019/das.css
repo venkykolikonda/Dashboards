@@ -1,0 +1,44 @@
+.header{
+    height: 50px;
+    position: absolute;
+    top: 10px;
+   
+}
+.nav-head-second{
+    margin-left: 350px;
+
+}
+
+.icons>span>i{
+    border: 1px solid;
+    border-radius: 15PX;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+.icons>span>i:hover{
+    background-color: rgb(185, 181, 181);
+}
+.pre>h1{
+    font-size: 3rem;
+    font-family:'Courier New', Courier, monospace !important;
+}
+.pre{
+    position: absolute;
+    top: 20px;
+    margin-left: 500px;
+    padding: 100px;
+    left: 100px;  
+}
+.gri{
+    max-width: 32% !important;
+    box-shadow: 0px 0px  4px 4px 4px rgb(160, 76, 76);
+    padding: 50px;
+  
+}
+.vee:hover{
+    background-color: rgb(43, 226, 83);
+}
+.over:hover{
+    background-color: blue !important;
+}
