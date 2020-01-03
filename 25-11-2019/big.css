@@ -1,0 +1,79 @@
+.main-header{
+    height: 60px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-header>img:first-of-type{
+    border-radius: 8px;
+}
+.second-header{
+    height: 40px;
+    background-color: white;
+    color: white;
+    font-family: fantasy;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.second-header>a{
+    text-decoration: lightblue;
+    color:black;
+}
+.row{
+    background-color: white;
+    margin-top: 30px;
+}
+.col-md-3{
+    border: 1px solid rgb(48, 44, 44); 
+    border-radius: 20px;
+    margin-right: 10px;
+    max-width: 24% !important; 
+    box-shadow: 0px 0px 4px 5px black;
+    padding: 20px;
+}
+.col-md-3>img{
+    margin-left: 40px;
+    width: 130px !important;
+    height: 100px !important;
+}
+#select{
+    width: 140px;
+}
+.col-md-3>div>button{
+    margin-left: 90px;
+    margin-top: 10px;
+    background-color: yellowgreen;
+}
+.cart-header{
+    height: 50px;
+    border-bottom: 1px solid lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items-header>ul{
+    list-style: none;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+   
+    border-bottom: 1px solid lightblue;
+  
+}
+.sub>pre{
+    margin-left: 500px;
+}
+.sub{
+    border-bottom: 1px solid lightblue;
+}
+#button{
+    background-color: rgb(53, 53, 187);
+}
+.main{
+    width: 60%;
+    text-align: center;
+    margin-left:250px;
+}

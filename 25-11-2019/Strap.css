@@ -1,0 +1,20 @@
+.main-header{
+height: 60px;
+background-color:rgb(122, 126, 115) ;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+.main-header>img{
+    border-radius: 10px;
+}
+.ve{
+    margin: 5px;
+    background-color: yellow;
+    min-height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: larger;
+}
